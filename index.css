@@ -46,9 +46,9 @@
 /*     width:228px; 
     in 228 width zoom image not set */
     
-    height: auto;
-/*     height:200px;
-    in height 200 zoom image not set */
+  /*  height: auto; */
+    height:200px;
+  /*  in height auto zoom image not set */
     border-top-left-radius:12px ;
     border-top-right-radius:12px ;
 }
