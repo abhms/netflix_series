@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+*{
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+    background-color: #868686;;
+
+}
+.heading_style{
+    padding: 30px 0;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgba(102, 89, 86, 0.37);
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.cards{
+    width: 100%;
+    height: auto;
+}
+.card{
+    margin: 3.4em;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: white;
+    width: 15%;
+    border-radius: 12px;
+    box-shadow: 0px 13px 10px -7pz rgba(190, 231, 7, 0.884);
+   
+   float: left;
+
+}
+.card:hover{
+    box-shadow: 0px 30px 18px-8px rgb(220, 248, 64);
+    transform: scale(1.05,1.05);
+
+}
+.cards__img{
+    width: 228px;
+    height: 200px;
+    border-top-left-radius:12px ;
+    border-top-right-radius:12px ;
+}
+.card__info{
+    background-color:#fff;
+    border-bottom-left-radius:12px ;
+    border-bottom-right-radius:12px ;
+    padding: 16px 24px 24px 24px;
+    /* background-color: white; */
+}
+.card__category{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: rgb(167, 76, 76);
+    background-color: whitesmoke;
+
+}
+.cards__title{
+    margin-top: 5px 5px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    background-color: white;
+    text-transform: capitalize;
+}
+.button{
+    padding: 6px 8px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    /* color: rgb(248, 247, 244); */
+    background-color: rgb(235, 71, 43);
+    outline: none;
+    border: 1px solid rgb(14, 13, 13);
+    cursor: pointer;
+}
+@media(max-width:930px){
+    .cards{
+       
+       margin: 9%;
+
+       width: 90%;
+       
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 230px;
+        margin: 2%;
+       
+    }
+}
